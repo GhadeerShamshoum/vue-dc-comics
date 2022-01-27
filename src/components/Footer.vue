@@ -26,21 +26,8 @@
                 <div>site</div>
               </div>
             </div>
-             <div class="textContainerF">
-              <h1>dc comics</h1>
-              <div class="Text">
-                <div>Characters</div>
-                <div>Comics</div>
-                <div>TV</div>
-                <div>Games</div>
-                <div>Videos</div>
-                <div>News</div>
-                <div>Shop</div>
-                <div>DC</div>
-                <div>Site</div>
-              </div>
-            </div>
-             <div class="textContainerF">
+      
+            <div class="textContainerF">
               <h1>shop</h1>
               <div class="Text">
                 <div>Shop DC</div>
@@ -48,18 +35,32 @@
               </div>
             </div>
              <div class="textContainerF">
-              <h1>dc comics</h1>
+              <h1>DC</h1>
               <div class="Text">
-                <div>Characters</div>
-                <div>Comics</div>
-                <div>TV</div>
-                <div>Games</div>
-                <div>Videos</div>
-                <div>News</div>
-                <div>shop</div>
-                <div>dc</div>
-                <div>site</div>
+                <div>Terms Of Use</div>
+                <div>Privacy policy (New)</div>
+                <div>Ad Choices</div>
+                <div>Advertising</div>
+                <div>Jobs</div>
+                <div>Subscriptions</div>
+                <div>Taleent</div>
+                <div>CPSC Certificates</div>
+                <div>Rating</div>
+                <div>Shop Help</div>
+                <div>Contact Us</div>
               </div>
+              
+            </div>
+             <div class="textContainerF">
+              <h1>sites</h1>
+              <div class="Text">
+                <div>DC</div>
+                <div>MAD Magazine</div>
+                <div>DC Kids</div>
+                <div>DC Universe</div>
+                <div>DC Powwer Visa</div>
+              </div>
+              
             </div>
             
           
@@ -154,16 +155,20 @@ export default {
   background-repeat: no-repeat;
   .containerTextFooterC{
     margin: 60px 0;
-    height: 80%;
+    width: 400px;
+    height: 77%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     .textContainerF{
-      width: 220px;
+      width: 175px;
       .Text{
         font-size: 15px;
-        padding: 10px;
+        padding: 20px 0;
         color: gray;
+        div{
+          padding: 2px 0;
+        }
       }
     }
   }
