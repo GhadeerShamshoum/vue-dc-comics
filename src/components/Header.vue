@@ -115,8 +115,11 @@ export default {
       li{
         a{
           color: black;
+          font-size: 13px;
+          font-weight: 800;
           text-decoration: none;
           padding-bottom: 30px;
+          text-transform: uppercase;
           &:hover{
             border-bottom:4px solid $colorBlue;
             color: $colorBlue;
