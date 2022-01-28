@@ -2,13 +2,16 @@
   <main>
     <Jumbotron/>
     <div class="container">
-      <button>current series</button>
+      <button class="button-top">current series</button>
     </div>
     <div class="container">
     <SeriesCardsContainer
     v-for="(element, index) in series"
     :key="index"
     :details="element"/>
+    </div>
+    <div class="container">
+      <button class="button-bottom">load more</button>
     </div>
      
   </main>
@@ -43,7 +46,7 @@ export default {
 @import '../../assets/style/partials/variables.scss';
 
 main{
-   height: 1000px;
+   height: 958px;
    position: relative;
 } 
 
@@ -63,13 +66,21 @@ button{
   background-color: $colorBlue;
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 700;
   padding: 10px 15px;
   border: none;
+}
+
+.button-top{
+  font-size: 20px;
+  font-weight: 700;
   position: absolute;
   top:296px;
-  left: 198px;
+  left: 198px; 
+}
+
+.button-bottom{
+  width: 180px;
+  margin-top: 35px;
 }
 
 
