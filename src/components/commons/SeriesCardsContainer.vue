@@ -3,7 +3,9 @@
       <div class="containerImg">
         <img :src="details.thumb" alt="">
       </div>
-      <h5>{{details.series}}</h5>
+      <div class="containerText">
+        <h5>{{details.series}}</h5>
+      </div>
     </div> 
 </template>
 
@@ -20,20 +22,29 @@ export default {
 <style lang="scss" scoped>
   .card{
     width: calc(100% / 6 - 20px);
-    margin: 50px 10px 0px 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 20px 10px;
+    height: 200px;
+    
+   
+    
     .containerImg{
       width: 100%;
-      height: 70%;
+      height: 170px;
       overflow: hidden;
 
       img{
         width: 100%;
       }
     }
+    h5{
+      height: 20px;
+      padding: 5px 0;
+    }
+    .containerText{
+      height: 30px;
+    }
   }
+
 
 
 </style>
