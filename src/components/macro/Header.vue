@@ -4,7 +4,7 @@
       <div class="container">
         <div class="headerLeft">
           <div id="logo">
-            <img src="../assets/img/dc-logo.png" alt="">
+            <img src="../../assets/img/dc-logo.png" alt="">
           </div>
         </div>
 
@@ -88,7 +88,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 .container{
   display: flex;
   justify-content: space-between;

@@ -88,7 +88,7 @@ export default {
 .footerCenter{
   height: 500px;
   width: 100%;
-  background-image:url(../assets/img/dc-logo-bg.png);
+  background-image:url(../../assets/img/dc-logo-bg.png);
   background-position: right;
   background-repeat: no-repeat;
   .containerTextFooterC{

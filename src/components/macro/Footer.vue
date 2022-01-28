@@ -9,30 +9,30 @@
 </template>
 
 <script>
-import FooterTop from '@/components/FooterTop.vue'
-import FooterCenter from '@/components/FooterCenter.vue'
-import FooterBottom from '@/components/FooterBottom.vue'
+import FooterTop from '../commons/FooterTop.vue'
+import FooterCenter from '../commons/FooterCenter.vue'
+import FooterBottom from '../commons/FooterBottom.vue'
 
 export default {
   name: 'Footer',
   components: {
     FooterTop,
     FooterCenter,
-    FooterBottom, 
+    FooterBottom
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 
 
 
 
 
 footer{
-  background-image: url(../assets/img//footer-bg.jpg);
+  background-image: url(../../assets/img//footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

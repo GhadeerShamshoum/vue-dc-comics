@@ -23,23 +23,23 @@ export default {
       information:[
         {
           text: "digital comics",
-          image:require("../assets/img/img_1.png")
+          image:require("../../assets/img/img_1.png")
         },
         {
           text: "dc merchandise",
-          image:require("../assets/img/img_2.png")
+          image:require("../../assets/img/img_2.png")
         },
         {
           text: "subscription",
-          image:require("../assets/img/img_3.png")
+          image:require("../../assets/img/img_3.png")
         },
         {
           text: "comic shop locator",
-          image:require("../assets/img/img_4.png")
+          image:require("../../assets/img/img_4.png")
         },
         {
           text: "dc power visa",
-          image:require("../assets/img/img_5.svg")
+          image:require("../../assets/img/img_5.svg")
           
         }
         
@@ -53,7 +53,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 
 
 .container{
@@ -91,7 +91,7 @@ export default {
 
 
 footer{
-  background-image: url(../assets/img//footer-bg.jpg);
+  background-image: url(../../assets/img/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

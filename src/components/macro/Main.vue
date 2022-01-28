@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import Jumbotron from '@/components/Jumbotron.vue'
+  import Jumbotron from '../commons/Jumbotron.vue'
 
 export default {
   
@@ -14,6 +14,10 @@ export default {
 
   components: { 
     Jumbotron 
+  },
+
+  data() {
+    
   }
   
 }

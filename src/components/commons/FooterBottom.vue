@@ -6,11 +6,11 @@
             <div class="container B">
             <button>sign-up now!</button>
             <div class="bottomRight">follow us
-                <img class="icons" src="../assets/img/footer-facebook.png" alt="">
-                <img class="icons" src="../assets/img/footer-twitter.png" alt="">
-                <img class="icons" src="../assets/img/footer-youtube.png" alt="">
-                <img class="icons" src="../assets/img/footer-pinterest.png" alt="">
-                <img class="icons" src="../assets/img/footer-periscope.png" alt="">
+                <img class="icons" src="../../assets/img/footer-facebook.png" alt="">
+                <img class="icons" src="../../assets/img/footer-twitter.png" alt="">
+                <img class="icons" src="../../assets/img/footer-youtube.png" alt="">
+                <img class="icons" src="../../assets/img/footer-pinterest.png" alt="">
+                <img class="icons" src="../../assets/img/footer-periscope.png" alt="">
             </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 
 .footerBottom{
   height: 100px;

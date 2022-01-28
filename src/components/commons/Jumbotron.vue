@@ -11,7 +11,7 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotronBackgrounImage{
-     background-image: url(../assets/img/jumbotron.jpg) ;
+     background-image: url(../../assets/img/jumbotron.jpg) ;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
