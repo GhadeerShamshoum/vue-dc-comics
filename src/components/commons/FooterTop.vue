@@ -39,7 +39,7 @@ export default {
         },
         {
           text: "dc power visa",
-          image:require("../../assets/img/img_5.svg")
+          image:require("../../assets/img/img_5.png")
           
         }
         
@@ -75,13 +75,17 @@ export default {
     .imgContainer{
         width: 60px;
         height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
         img{
-          height: 100%;
+          height: 70%;
         }
     }
     
     .text{
       padding: 0 5px;
+      text-transform: uppercase;
       
     }
   }
