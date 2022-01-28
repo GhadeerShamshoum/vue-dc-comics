@@ -4,7 +4,9 @@
       <div class="footerTop">
         <div class="container">
           <div class="foterTopContainer" v-for='(element, index) in information' :key="index">
-            <img src="../assets/img/img_1.png" alt="">
+              <div class="imgContainer">
+                <img :src="element.image" alt="">
+              </div>
             <div class="text">{{element.text}}</div>
           </div>
         </div>
@@ -21,22 +23,23 @@ export default {
       information:[
         {
           text: "digital comics",
-          image:"../assets/img/img_1.png"
+          image:require("../assets/img/img_1.png")
         },
         {
           text: "dc merchandise",
-          image:"../assets/img/img_2.png"
+          image:require("../assets/img/img_2.png")
         },
         {
           text: "subscription",
-          image:"../assets/img/img_3.png"
+          image:require("../assets/img/img_3.png")
         },
         {
           text: "comic shop locator",
-          image:"../assets/img/img_4.png"
+          image:require("../assets/img/img_4.png")
         },
         {
-          text: "dc power visa"
+          text: "dc power visa",
+          image:require("../assets/img/img_5.svg")
           
         }
         
@@ -69,10 +72,14 @@ export default {
   .foterTopContainer{
     display: flex;
     align-items: center;
-    
-    img{
-      height: 60px;
+    .imgContainer{
+        width: 60px;
+        height: 50px;
+        img{
+          height: 100%;
+        }
     }
+    
     .text{
       padding: 0 5px;
       
